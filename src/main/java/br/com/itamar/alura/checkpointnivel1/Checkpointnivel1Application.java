@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Checkpointnivel1Application {
 
-	public static void main(String[] args) {
-		SpringApplication.run(Checkpointnivel1Application.class, args);
-	}
-
+  static void main(String[] args) {
+    SpringApplication.run(Checkpointnivel1Application.class, args);
+  }
 }
