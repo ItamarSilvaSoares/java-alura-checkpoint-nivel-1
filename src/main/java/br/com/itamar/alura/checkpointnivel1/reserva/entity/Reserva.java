@@ -44,6 +44,7 @@ public class Reserva {
   //  identifica qual sala a reserva pertence
   @OneToOne private Sala sala;
 
+  // identifica se a reserva está ativa ou não
   @Enumerated(EnumType.STRING)
   private ReservationStatus status;
 
